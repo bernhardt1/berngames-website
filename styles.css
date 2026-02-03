@@ -210,22 +210,9 @@ p {
 }
 
 .site-footer {
-  padding: 28px 0 40px;
-  display: grid;
-  gap: 12px;
+  padding: 20px 0 34px;
   color: var(--muted);
   font-size: 0.95rem;
-}
-
-.footer-brand {
-  font-family: var(--font-display);
-  color: var(--ink);
-}
-
-.footer-links {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
 }
 
 .footer-meta {
