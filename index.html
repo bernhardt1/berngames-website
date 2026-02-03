@@ -4,115 +4,164 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bern Games</title>
-    <meta name="description" content="Bern Games is a minimalist indie game studio crafting playful mobile worlds." />
+    <title>Hero King | Bern Games</title>
+    <meta name="description" content="Hero King is a fast-paced mobile roguelike with tower defense roots, built for short, satisfying play sessions." />
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <header class="site-header container fade-in">
-        <a class="logo" href="index.html">
-            <img class="logo-mark" src="assets/bern-games-logo.png" alt="Bern Games logo" />
-            <span>Bern <span class="logo-accent">Games</span></span>
-        </a>
-        <nav class="nav">
-            <a href="#games">Games</a>
-            <a href="#studio">Studio</a>
-            <a href="support.html">Support</a>
-        </nav>
-    </header>
+    <div class="page">
+        <header class="site-header container">
+            <a class="logo" href="index.html">
+                <img class="logo-mark" src="assets/bern-games-logo.png" alt="Bern Games logo" />
+                <span>Bern <span class="logo-accent">Games</span></span>
+            </a>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#gameplay">Gameplay</a>
+                <a href="#style">Style</a>
+                <a href="#platforms">Platforms</a>
+                <a href="support.html">Support</a>
+            </nav>
+        </header>
 
-    <main>
-        <section class="hero container">
-            <div class="fade-in delay-1">
-                <div class="eyebrow">Indie Game Studio</div>
-                <h1>Handcrafted mobile worlds with a clean, playful edge.</h1>
-                <p class="lead">We build atmospheric, easy-to-learn experiences that feel polished, warm, and quietly surprising. Small team, strong taste, no fluff.</p>
-                <div class="buttons">
-                    <a class="button primary" href="mailto:hello@berngames.com">Get updates</a>
-                    <a class="button ghost" href="#games">See what's next</a>
+        <main>
+            <section class="hero container" id="about">
+                <div class="hero-copy">
+                    <div class="eyebrow">Hero King</div>
+                    <h1>Fast-paced mobile roguelike with tower defense roots.</h1>
+                    <p class="lead">Hero King is a fast-paced mobile roguelike with tower defense roots, built for short, satisfying play sessions and endless progression.</p>
+                    <p>Inspired by games like The Tower, survivor-style roguelikes, and classic tower defense, Hero King blends active combat, strategic upgrades, and repeatable runs into a loop that feels powerful, readable, and addictive on mobile.</p>
+                    <div class="buttons">
+                        <a class="button primary" href="mailto:hello@berngames.com">Join the playtest</a>
+                        <a class="button secondary" href="mailto:hello@berngames.com">Press and partnerships</a>
+                    </div>
+                    <div class="platforms">Launching on iOS and Android</div>
                 </div>
-                <div class="meta">Platforms: iOS / Android / Controller-friendly</div>
-            </div>
-            <div class="hero-visual fade-in delay-2">
-                <div class="hero-card">
-                    <img src="assets/bern-games-logo.png" alt="Bern Games emblem" />
-                </div>
-                <div class="hero-card">
-                    <h3>Studio focus</h3>
-                    <p>We prototype fast, obsess over feel, and tune every detail until it plays effortlessly. Our games favor clarity, punchy animation, and a soundtrack-first vibe.</p>
-                    <div class="tag-list">
-                        <span class="tag">Touch-first controls</span>
-                        <span class="tag">Short sessions</span>
-                        <span class="tag">Premium polish</span>
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="hero-illustration">
+                        <svg class="hero-emblem" viewBox="0 0 200 200" role="presentation" aria-hidden="true">
+                            <defs>
+                                <linearGradient id="crest" x1="0" x2="1" y1="0" y2="1">
+                                    <stop offset="0%" stop-color="#f9d47a" />
+                                    <stop offset="100%" stop-color="#ffb347" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="100" cy="100" r="90" fill="#4bb7ff" />
+                            <circle cx="100" cy="100" r="76" fill="#6ee7ff" />
+                            <path d="M40 120 L100 55 L160 120" fill="#8b68ff" />
+                            <rect x="70" y="90" width="60" height="70" rx="12" fill="#ffffff" />
+                            <rect x="82" y="105" width="36" height="38" rx="8" fill="#d8f4ff" />
+                            <path d="M70 82 L100 60 L130 82" fill="url(#crest)" />
+                            <circle cx="88" cy="100" r="4" fill="#4bb7ff" />
+                            <circle cx="112" cy="100" r="4" fill="#4bb7ff" />
+                        </svg>
+                        <div class="hero-panels">
+                            <div class="panel-card">
+                                <div class="panel-title">Short, punchy runs</div>
+                                <div class="panel-text">Make real progress in minutes.</div>
+                            </div>
+                            <div class="panel-card">
+                                <div class="panel-title">Endless progression</div>
+                                <div class="panel-text">Death is progress, not failure.</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="games" class="section container">
-            <div class="section-title fade-in delay-1">
-                <h2>Our next game</h2>
-                <p>Project codename Aurora is a cozy action puzzler about guiding constellations across a shifting sky.</p>
-            </div>
-            <div class="card-grid">
-                <article class="card fade-in delay-2">
-                    <h3>What to expect</h3>
-                    <p>30-second runs, satisfying combos, and a soundtrack-driven flow loop designed for one-handed play.</p>
-                    <div class="tag-list">
-                        <span class="tag">Portrait mode</span>
-                        <span class="tag">Daily remix</span>
-                        <span class="tag">Offline friendly</span>
+            <section class="section container">
+                <div class="split">
+                    <div>
+                        <h2>The loop</h2>
+                        <p>Each run is intentionally short and punchy. You jump into battle, fight escalating waves of enemies, earn upgrades, grow stronger, and eventually fall, only to return stronger on the next run.</p>
+                        <p>Hero King is designed from the ground up for iOS and Android, with one-handed play, clear UI, and performance-friendly visuals that feel premium without being noisy or overwhelming.</p>
                     </div>
-                </article>
-                <article class="card fade-in delay-3">
-                    <h3>Release window</h3>
-                    <p>We're in closed prototype now with a small group of testers. Public release dates will land in 2026.</p>
-                    <div class="tag-list">
-                        <span class="tag">iOS first</span>
-                        <span class="tag">Android next</span>
-                        <span class="tag">TestFlight soon</span>
+                    <div class="highlight-box">
+                        <h3>Playstyle</h3>
+                        <p>Combat is automatic, but positioning, upgrades, relics, and timing decisions matter. Every choice should feel readable and powerful on a phone screen.</p>
+                        <div class="tag-list">
+                            <span class="tag">Auto combat</span>
+                            <span class="tag">Strategic upgrades</span>
+                            <span class="tag">Repeatable runs</span>
+                        </div>
                     </div>
-                </article>
-            </div>
-        </section>
+                </div>
+            </section>
 
-        <section id="studio" class="section container">
-            <div class="split">
-                <div class="fade-in delay-1">
-                    <h2>Bern Games studio</h2>
-                    <p>We're a tiny team in the US focused on mobile titles with high craft and low noise. Our process is collaborative, design-led, and built around sustainable development.</p>
-                    <p>We prefer slow launches with a tight feedback loop so every release feels intentional.</p>
+            <section id="gameplay" class="section container">
+                <div class="section-title">
+                    <h2>Core gameplay</h2>
+                    <p>Tower defense strategy meets roguelike progression and tight mobile pacing.</p>
                 </div>
-                <div class="key-points">
-                    <div class="key-point fade-in delay-2">Design starts with mood boards, ends with tactile feel.</div>
-                    <div class="key-point fade-in delay-3">Every feature must reduce friction or add delight.</div>
-                    <div class="key-point fade-in delay-3">Community feedback shapes each live update.</div>
+                <div class="card-grid">
+                    <article class="card">
+                        <h3>Tower defense + roguelike</h3>
+                        <p>You defend your keep while actively fighting enemies in real time. Combat is automatic, but positioning, upgrades, relics, and timing decisions matter.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Short, fun rounds</h3>
+                        <p>Sessions are designed to be quick and rewarding. You can make meaningful progress in minutes, with depth for long runs and optimization.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Roguelike progression</h3>
+                        <p>Every run offers new choices: upgrades, cards, relics, and modifiers that change how the game plays. No two runs feel the same.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Mobile-first design</h3>
+                        <p>Clean UI, big buttons, readable numbers, and smooth animations. Everything is optimized for touch and portrait orientation.</p>
+                    </article>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="section container">
-            <div class="cta fade-in delay-1">
-                <div>
-                    <h2>Work with us</h2>
-                    <p>Press, partnerships, and platform opportunities are welcome. We also love hearing from players who want to test early builds.</p>
+            <section id="style" class="section container">
+                <div class="section-title">
+                    <h2>Art style and visual direction</h2>
+                    <p>Stylized, colorful, cartoon-fantasy visuals that feel playful, readable, and modern.</p>
                 </div>
-                <div class="buttons">
-                    <a class="button primary" href="mailto:hello@berngames.com">Email hello@berngames.com</a>
-                    <a class="button ghost" href="support.html">Support</a>
+                <div class="style-grid">
+                    <div class="style-card">
+                        <h3>Bright, saturated palette</h3>
+                        <p>Vivid blues for water, lush greens for land, bold UI colors for buttons and panels.</p>
+                    </div>
+                    <div class="style-card">
+                        <h3>Soft, rounded forms</h3>
+                        <p>Chunky, friendly silhouettes with smooth shading and toy-like depth.</p>
+                    </div>
+                    <div class="style-card">
+                        <h3>High contrast UI</h3>
+                        <p>Large, glossy buttons and icons that are readable at a glance.</p>
+                    </div>
+                    <div class="style-card">
+                        <h3>Playful fantasy tone</h3>
+                        <p>Swords, relics, cards, coins, and gems presented in a light, approachable way.</p>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
 
-    <footer class="site-footer container">
-        <div>(c) 2026 Bern Games. All rights reserved.</div>
-        <div class="footer-links">
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="support.html">Support</a>
-        </div>
-    </footer>
+            <section id="platforms" class="section container">
+                <div class="cta">
+                    <div>
+                        <h2>Platforms</h2>
+                        <p>Hero King is launching on iOS and Android as a premium mobile experience with long-term progression, live updates, and ongoing content.</p>
+                    </div>
+                    <div class="buttons">
+                        <a class="button primary" href="mailto:hello@berngames.com">Get updates</a>
+                        <a class="button secondary" href="support.html">Support</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer container">
+            <div class="footer-brand">Bern Games</div>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="support.html">Support</a>
+            </div>
+            <div class="footer-meta">(c) 2026 Bern Games. All rights reserved.</div>
+        </footer>
+    </div>
 </body>
 
 </html>
