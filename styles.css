@@ -38,7 +38,7 @@ body {
   margin: 0;
   font-family: var(--font-body);
   color: var(--text);
-  background: linear-gradient(180deg, #dff6ff 0%, var(--sky-deep) 45%, #8cd0ff 100%);
+  background: linear-gradient(180deg, #e9f8ff 0%, var(--sky-deep) 45%, #a6d9ff 100%);
 }
 
 .page {
@@ -54,8 +54,8 @@ body {
   background: radial-gradient(circle at 80% 10%, rgba(255, 212, 74, 0.7), transparent 32%),
     radial-gradient(circle at 18% 18%, rgba(87, 216, 116, 0.32), transparent 36%),
     radial-gradient(circle at 85% 55%, rgba(122, 81, 255, 0.12), transparent 40%),
-    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.35) 0, rgba(255, 255, 255, 0.35) 14px, transparent 14px, transparent 28px);
-  opacity: 0.45;
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.18) 0, rgba(255, 255, 255, 0.18) 16px, transparent 16px, transparent 32px);
+  opacity: 0.35;
   pointer-events: none;
   z-index: -1;
 }
@@ -139,11 +139,11 @@ p {
 .hero {
   display: grid;
   gap: 32px;
-  padding: 40px 0 30px;
+  padding: 36px 0 24px;
 }
 
 .hero-copy h1 {
-  font-size: clamp(2.2rem, 3vw + 1rem, 3.8rem);
+  font-size: clamp(2.1rem, 2.8vw + 1rem, 3.4rem);
   line-height: 1.05;
 }
 
@@ -187,11 +187,23 @@ p {
   align-items: center;
 }
 
+.store-badges a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  padding: 0 6px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 18px rgba(39, 76, 134, 0.18);
+}
+
 .store-badges img {
-  height: 52px;
+  height: 42px;
   width: auto;
   display: block;
-  filter: drop-shadow(0 8px 14px rgba(39, 76, 134, 0.2));
+  filter: drop-shadow(0 6px 10px rgba(39, 76, 134, 0.2));
 }
 
 .hero-visual {
@@ -201,7 +213,7 @@ p {
 }
 
 .hero-icon {
-  width: min(320px, 70vw);
+  width: min(360px, 70vw);
   height: auto;
   border-radius: 32px;
   border: 6px solid rgba(255, 255, 255, 0.9);
@@ -210,7 +222,7 @@ p {
 }
 
 .site-footer {
-  padding: 36px 0 50px;
+  padding: 28px 0 40px;
   display: grid;
   gap: 12px;
   color: var(--muted);
