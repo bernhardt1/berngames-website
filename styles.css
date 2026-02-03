@@ -118,6 +118,12 @@ p {
   color: var(--accent);
 }
 
+.brand-text {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--ink);
+}
+
 .nav {
   display: flex;
   flex-wrap: wrap;
