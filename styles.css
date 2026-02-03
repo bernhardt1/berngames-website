@@ -1,24 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+@font-face {
+  font-family: "Lilita One";
+  src: url("assets/fonts/Lilita_One/LilitaOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   color-scheme: light;
-  --sky: #e6f7ff;
-  --sky-deep: #bfe8ff;
-  --sea: #63c8ff;
-  --sea-deep: #3aa6ff;
-  --grass: #6edc88;
-  --sun: #ffd56b;
-  --purple: #8b68ff;
+  --sky: #d6f2ff;
+  --sky-deep: #a9ddff;
+  --sea: #4db5ff;
+  --sea-deep: #2a8fe6;
+  --grass: #57d874;
+  --sun: #ffd44a;
+  --purple: #7a51ff;
   --ink: #1c2340;
-  --text: #223055;
+  --text: #23335c;
   --muted: #4a5b84;
   --panel: #ffffff;
-  --panel-soft: #f6fbff;
+  --panel-soft: #f2f8ff;
   --border: rgba(28, 35, 64, 0.12);
   --shadow: 0 18px 30px rgba(39, 76, 134, 0.18);
   --radius: 20px;
   --radius-lg: 28px;
-  --font-display: "Fredoka", "Segoe UI", sans-serif;
+  --font-display: "Lilita One", "Nunito", "Segoe UI", sans-serif;
   --font-body: "Nunito", "Segoe UI", sans-serif;
 }
 
@@ -30,7 +38,7 @@ body {
   margin: 0;
   font-family: var(--font-body);
   color: var(--text);
-  background: linear-gradient(180deg, var(--sky) 0%, var(--sky-deep) 45%, #a9ddff 100%);
+  background: linear-gradient(180deg, #dff6ff 0%, var(--sky-deep) 45%, #8cd0ff 100%);
 }
 
 .page {
@@ -43,10 +51,11 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 80% 10%, rgba(255, 213, 107, 0.65), transparent 30%),
-    radial-gradient(circle at 20% 12%, rgba(110, 220, 136, 0.3), transparent 35%),
-    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.4) 14px, transparent 14px, transparent 28px);
-  opacity: 0.4;
+  background: radial-gradient(circle at 80% 10%, rgba(255, 212, 74, 0.7), transparent 32%),
+    radial-gradient(circle at 18% 18%, rgba(87, 216, 116, 0.32), transparent 36%),
+    radial-gradient(circle at 85% 55%, rgba(122, 81, 255, 0.12), transparent 40%),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.35) 0, rgba(255, 255, 255, 0.35) 14px, transparent 14px, transparent 28px);
+  opacity: 0.45;
   pointer-events: none;
   z-index: -1;
 }
@@ -170,7 +179,7 @@ p {
 }
 
 .button.primary {
-  background: linear-gradient(120deg, #ffd56b, #ffb347);
+  background: linear-gradient(120deg, #ffd44a, #ffb13d);
   color: #4a2a00;
 }
 
@@ -190,7 +199,7 @@ p {
 }
 
 .hero-illustration {
-  background: linear-gradient(160deg, #6ad1ff, #7df0b9);
+  background: linear-gradient(160deg, var(--sea), #7ef0c2);
   border-radius: var(--radius-lg);
   padding: 24px;
   border: 3px solid rgba(255, 255, 255, 0.8);
@@ -213,7 +222,7 @@ p {
 }
 
 .panel-card {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.94);
   border-radius: 16px;
   padding: 12px 14px;
   border: 2px solid rgba(255, 255, 255, 0.9);
@@ -263,8 +272,8 @@ p {
   font-weight: 700;
   padding: 6px 12px;
   border-radius: 999px;
-  background: #fff0c4;
-  color: #6b3c00;
+  background: #ffe59a;
+  color: #5a3300;
 }
 
 .card-grid,
@@ -283,7 +292,7 @@ p {
 }
 
 .cta {
-  background: linear-gradient(140deg, #fff1c7, #ffe6ef 70%, #d9f4ff);
+  background: linear-gradient(140deg, #fff1b3, #ffe0f0 70%, #ccf0ff);
   border-radius: var(--radius-lg);
   padding: 24px;
   border: 2px solid rgba(255, 255, 255, 0.9);
