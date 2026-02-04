@@ -224,7 +224,8 @@ p {
 
 .store-badges .badge img {
   height: 32px;
-  width: auto;
+  width: 120px;
+  object-fit: contain;
   display: block;
   filter: drop-shadow(0 6px 10px rgba(39, 76, 134, 0.2));
 }
