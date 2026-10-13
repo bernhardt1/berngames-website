@@ -1,0 +1,28 @@
+{
+  "source": "Actual Boom Brigade 0.1.1 production browser renderer",
+  "capturedAt": "2026-10-13T22:04:02.149Z",
+  "method": "Chrome 375×812; no generated imagery; qa query excludes capture visits from community counts",
+  "captures": [
+    {
+      "file": "first-board.png",
+      "level": 1,
+      "width": 375,
+      "height": 812,
+      "sha256": "11bb7b6f93dec11bc2f9c5e6c513097ee18f256666acbf0237cf09323a2facee"
+    },
+    {
+      "file": "gold-barrels.png",
+      "level": 12,
+      "width": 375,
+      "height": 812,
+      "sha256": "a20850bda2a522c963e7c11797776f98f953c43cb0803cbd9959dc680d3c5fe9"
+    },
+    {
+      "file": "rolling-finale.png",
+      "level": 16,
+      "width": 375,
+      "height": 812,
+      "sha256": "9bb42b3b68f0c08de2c75b3c4259e6684061606a0d31c3efe1c4640496c9c6fa"
+    }
+  ]
+}

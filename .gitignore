@@ -1,2 +1,8 @@
 .DS_Store
 .impeccable/
+node_modules/
+.wrangler/
+.checks/
+.dev.vars
+.env*
+public/

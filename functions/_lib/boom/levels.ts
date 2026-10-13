@@ -1,0 +1,12 @@
+import {CAMPAIGN} from './campaign';
+export type Kind = 'barrel' | 'heavy' | 'roller' | 'goblin' | 'orc' | 'stone';
+export type Position = {col:number;row:number};
+export type Piece = Position & {id:string;kind:Kind};
+export type Command = {type:'move';id:string;to:Position}|{type:'ignite';id:string}|{type:'undo'}|{type:'retry'};
+export type Level = {id:string;title:string;hint:string;chapter:number;moves:number;minimumMoves:number;pieces:Piece[];solution:Command[]};
+export const COLS=5,ROWS=7;
+export const CHAPTERS=['Mind the rocks','Crack the armor','Double trouble','Roll the powder'];
+export const CHAPTER_SIZE=4;
+export const isBarrel=(piece:Piece|undefined):piece is Piece & {kind:'barrel'|'heavy'|'roller'}=>!!piece&&['barrel','heavy','roller'].includes(piece.kind);
+export const barrelName=(piece:Piece)=>piece.kind==='heavy'?'Double-damage barrel':piece.kind==='roller'?'Rolling barrel':'Powder barrel';
+export const LEVELS=CAMPAIGN as Level[];

@@ -1,0 +1,13 @@
+{
+  "name": "berngames-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node Tools/build-site.mjs",
+    "dev": "npm run build && wrangler pages dev public --port 4352",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check": "npm test && npm run build && wrangler pages functions build --outdir .checks/functions",
+    "sync:boom": "node Tools/sync-boom-rules.mjs"
+  },
+  "devDependencies": { "tsx": "4.23.15", "wrangler": "4.150.0" }
+}

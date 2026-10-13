@@ -1,0 +1,115 @@
+{
+  "source": "/Users/golbez/AI Games/Games/boom-brigade/Marketing/2026-10-13/Raw/boom-brigade-obs-master.mov",
+  "cliVersion": "0.3.1",
+  "fix": "For a source cut placed at edit time zero, playback.mapping.output.start must equal sourceRange.start; mapping.input.start and inputRange.start remain zero.",
+  "clips": [
+    {
+      "name": "challenge",
+      "path": "/Users/golbez/AI Games/Games/boom-brigade/Marketing/2026-10-13/Edit/Fixed/challenge.mp4",
+      "durationSeconds": 14.1,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "audioSampleRate": "48000",
+      "audioChannels": 2,
+      "meanVolumeDb": -37.8,
+      "peakVolumeDb": -18.1,
+      "sourceRange": {
+        "start": 5200,
+        "duration": 14100
+      },
+      "mappingOutput": {
+        "start": 5200,
+        "duration": 14100
+      },
+      "mp4Sha256": "b129cd2463245e0d9f9db1ea02adac91f31613e11c5b57c1982e72ac29311ac8",
+      "projectSha256": "c5488a3a65f1ea8577382938924d7af6c1f73d01dd1bd74e1e851f3cb5977cd6",
+      "exportFramesInspected": [
+        0,
+        30,
+        120,
+        210,
+        300,
+        420
+      ],
+      "preview": "/Users/golbez/AI Games/Games/boom-brigade/Marketing/2026-10-13/Edit/Fixed/Previews/challenge-export.png",
+      "deliveryPath": "/Users/golbez/AI Games/Games/boom-brigade/Marketing/2026-10-13/Clips/challenge.mp4"
+    },
+    {
+      "name": "roller",
+      "path": "/Users/golbez/AI Games/Games/boom-brigade/Marketing/2026-10-13/Edit/Fixed/roller.mp4",
+      "durationSeconds": 13.7,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "audioSampleRate": "48000",
+      "audioChannels": 2,
+      "meanVolumeDb": -37.7,
+      "peakVolumeDb": -17.8,
+      "sourceRange": {
+        "start": 20200,
+        "duration": 13700
+      },
+      "mappingOutput": {
+        "start": 20200,
+        "duration": 13700
+      },
+      "mp4Sha256": "3b9afdd983805133c4d0ce9250adb10045d9c528128b77b3aa91d147b99cfe66",
+      "projectSha256": "0273d829c57b520bde263b8fc62bb970d01f0c570f0f85cad53e5f185377ab4e",
+      "exportFramesInspected": [
+        0,
+        30,
+        120,
+        180,
+        240,
+        408
+      ],
+      "preview": "/Users/golbez/AI Games/Games/boom-brigade/Marketing/2026-10-13/Edit/Fixed/Previews/roller-export.png",
+      "deliveryPath": "/Users/golbez/AI Games/Games/boom-brigade/Marketing/2026-10-13/Clips/roller.mp4"
+    },
+    {
+      "name": "chain",
+      "path": "/Users/golbez/AI Games/Games/boom-brigade/Marketing/2026-10-13/Edit/Fixed/chain.mp4",
+      "durationSeconds": 7.7,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "audioSampleRate": "48000",
+      "audioChannels": 2,
+      "meanVolumeDb": -37.7,
+      "peakVolumeDb": -18.2,
+      "sourceRange": {
+        "start": 35200,
+        "duration": 7700
+      },
+      "mappingOutput": {
+        "start": 35200,
+        "duration": 7700
+      },
+      "mp4Sha256": "6ab946a1cfb34bbecb8b4d2633c64c1cf261c98f5745d7de5b4dac2bc18bb6cf",
+      "projectSha256": "d9546dc52a36dba92b3a269f6ae8bf15b172699e5ba94bffa21077bac47dfc56",
+      "exportFramesInspected": [
+        0,
+        30,
+        60,
+        90,
+        150,
+        228
+      ],
+      "preview": "/Users/golbez/AI Games/Games/boom-brigade/Marketing/2026-10-13/Edit/Fixed/Previews/chain-export.png",
+      "deliveryPath": "/Users/golbez/AI Games/Games/boom-brigade/Marketing/2026-10-13/Clips/chain.mp4"
+    }
+  ],
+  "audioListening": "Not performed: tool output reports audio input unsupported. Non-silence and source gain checked; final listening review needed.",
+  "publications": "None by this editing task.",
+  "rawSourceSha256": "3c6b6ea93554d21aace6aa0095a40ccfd3a06db127402caf67c3d721dd469129",
+  "normalization": "Root remuxed raw OBS master losslessly to Edit/obs-normalized.mp4; challenge project contains that asset. Other fixed projects preserve imported original master assets. No generated footage.",
+  "originalProjectsPreserved": true,
+  "exportEngine": "Native Tesseract tsrct 0.3.1 baaf418a83c2f83835a15c12111316559bfc7da3"
+}

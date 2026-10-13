@@ -33,7 +33,17 @@ Original artwork and audio for this workspace
 
 Internal workspace reuse and incorporation into our games; no standalone asset-pack licence.
 
-audio.boom-brigade.v2.yo-ho
+audio.boom-brigade.v3.puzzle-loop
 Generated content under Google Gemini API terms
 
-Generated Content section: Google does not claim ownership. Original lyrics and prompt; no named-artist imitation. Incorporated game use under provider terms; no exclusive rights claim.
+Original generated instrumental, no named-artist imitation. Google does not claim ownership of Generated Content under the Gemini API terms; no exclusive-rights claim. Retain source provenance; reuse incorporated in games.
+
+ui.boom-brigade.v1.icons
+Original artwork for this workspace
+
+Internal workspace reuse and incorporation into games; no standalone asset-pack licence.
+
+ui.boom-brigade.v1.corner-foliage
+Original artwork for this workspace
+
+Internal workspace reuse and incorporation into games; no standalone asset-pack licence.

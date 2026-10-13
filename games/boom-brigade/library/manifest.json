@@ -366,11 +366,11 @@
       "bytes": 41938
     },
     {
-      "id": "audio.boom-brigade.v2.yo-ho",
-      "name": "Yo Ho, Boom Brigade",
+      "id": "audio.boom-brigade.v3.puzzle-loop",
+      "name": "Quiet Powder — instrumental puzzle loop",
       "type": "audio",
-      "path": "Audio/BoomBrigade/v2/yo-ho-boom-brigade.mp3",
-      "url": "/library/Audio/BoomBrigade/v2/yo-ho-boom-brigade.mp3",
+      "path": "Audio/BoomBrigade/v3/puzzle-loop.mp3",
+      "url": "/library/Audio/BoomBrigade/v3/puzzle-loop.mp3",
       "status": "original-generated",
       "productionReady": false,
       "styleId": "bright-fantasy-idle.v1",
@@ -384,34 +384,148 @@
         "mode": "incorporated-game-only",
         "standalone": false,
         "incorporatedGame": true,
-        "notes": "Generated Content section: Google does not claim ownership. Original lyrics and prompt; no named-artist imitation. Incorporated game use under provider terms; no exclusive rights claim."
+        "notes": "Original generated instrumental, no named-artist imitation. Google does not claim ownership of Generated Content under the Gemini API terms; no exclusive-rights claim. Retain source provenance; reuse incorporated in games."
       },
       "source": {
         "kind": "generated",
         "provider": "Google Lyria 3.5 via treg",
         "evidence": [
-          "Audio/BoomBrigade/v2/Sources/yo-ho-original.mp3",
-          "Audio/BoomBrigade/v2/Sources/prompt.txt",
-          "Audio/BoomBrigade/v2/Sources/generated-lyrics.txt",
-          "Audio/BoomBrigade/v2/Sources/normalization.log",
-          "Audio/BoomBrigade/v2/Sources/generation.json"
+          "Audio/BoomBrigade/v3/Sources/original.mp3",
+          "Audio/BoomBrigade/v3/Sources/prompt.txt",
+          "Audio/BoomBrigade/v3/Sources/request.json",
+          "Audio/BoomBrigade/v3/Sources/structure.txt",
+          "Audio/BoomBrigade/v3/Sources/normalization.log",
+          "Audio/BoomBrigade/v3/Sources/prepare-music.py",
+          "Audio/BoomBrigade/v3/Sources/generation.json"
         ],
-        "verifiedOn": "2026-10-12"
+        "verifiedOn": "2026-10-13"
       },
       "generation": {
-        "promptPath": "Audio/BoomBrigade/v2/Sources/prompt.txt",
-        "callId": "03c953d19f4d4acc8e648303e31aaff7",
+        "promptPath": "Audio/BoomBrigade/v3/Sources/prompt.txt",
+        "callId": "ec94b826be604f329caf86c616e8d588",
         "costUsd": 0.08
       },
       "tags": [
         "boom-brigade",
-        "pirate",
-        "sea-shanty",
-        "vocals",
+        "instrumental",
+        "puzzle",
+        "calm",
+        "loop",
         "prototype"
       ],
-      "sha256": "afb3d17397b1bfac9f79de29e9f7acf4d27a5a69b6c022e551e662082cb1941a",
-      "bytes": 1290284
+      "sha256": "f678f2134137f936d90e49e66320eab79db8f3762f72a24b43e3020cfb0852e0",
+      "bytes": 1360083
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into games; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "UI/BoomBrigade/v1/Sources/icons-raw.png",
+          "UI/BoomBrigade/v1/Sources/corner-foliage-raw.png",
+          "UI/BoomBrigade/v1/Sources/mockup-reference.png",
+          "UI/BoomBrigade/v1/Prompts/icons.txt",
+          "UI/BoomBrigade/v1/Prompts/corner-foliage.txt",
+          "UI/BoomBrigade/v1/Sources/prepare-ui.mjs",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "UI/BoomBrigade/v1/Sources/generation.json"
+        ],
+        "verifiedOn": "2026-10-13"
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "id": "ui.boom-brigade.v1.icons",
+      "name": "Boom Brigade mockup UI icons",
+      "type": "texture",
+      "path": "UI/BoomBrigade/v1/icons.png",
+      "url": "/library/UI/BoomBrigade/v1/icons.png",
+      "generation": {
+        "promptPath": "UI/BoomBrigade/v1/Prompts/icons.txt",
+        "referencePath": "UI/BoomBrigade/v1/Sources/mockup-reference.png"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "boom-brigade",
+        "gear",
+        "goblin-head",
+        "undo",
+        "retry",
+        "prototype"
+      ],
+      "sha256": "ef0b04ef581c4714c2895f23c59f19f2e5a15359d62180c752e64e47854e9bc9",
+      "bytes": 174899
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into games; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "UI/BoomBrigade/v1/Sources/icons-raw.png",
+          "UI/BoomBrigade/v1/Sources/corner-foliage-raw.png",
+          "UI/BoomBrigade/v1/Sources/mockup-reference.png",
+          "UI/BoomBrigade/v1/Prompts/icons.txt",
+          "UI/BoomBrigade/v1/Prompts/corner-foliage.txt",
+          "UI/BoomBrigade/v1/Sources/prepare-ui.mjs",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "UI/BoomBrigade/v1/Sources/generation.json"
+        ],
+        "verifiedOn": "2026-10-13"
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "id": "ui.boom-brigade.v1.corner-foliage",
+      "name": "Boom Brigade corner foliage",
+      "type": "texture",
+      "path": "UI/BoomBrigade/v1/corner-foliage.png",
+      "url": "/library/UI/BoomBrigade/v1/corner-foliage.png",
+      "generation": {
+        "promptPath": "UI/BoomBrigade/v1/Prompts/corner-foliage.txt",
+        "referencePath": "UI/BoomBrigade/v1/Sources/mockup-reference.png"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "boom-brigade",
+        "foliage",
+        "corner",
+        "quiet-scenery",
+        "prototype"
+      ],
+      "sha256": "8af9aee9ba14a123e0ac036feec0574ef714e91b0f29622420286d9a1c29b883",
+      "bytes": 89145
     }
   ]
 }

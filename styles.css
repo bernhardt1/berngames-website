@@ -467,3 +467,25 @@ a:focus-visible, summary:focus-visible {
     scroll-behavior: auto;
   }
 }
+
+.game-community{font-size:.9rem;font-variant-numeric:tabular-nums;margin:0 0 16px;color:var(--text)}
+.release-signup p{color:var(--text)}
+.release-signup{padding:32px 20px 40px;scroll-margin-top:24px}
+.release-signup h2{font-size:clamp(1.9rem,3vw,2.8rem)}
+.release-signup form{max-width:660px}
+.email-label{display:block;font-weight:700;margin:16px 0 8px}
+.signup-input{display:flex;gap:12px;align-items:stretch;flex-wrap:wrap}
+.signup-input input{flex:1;min-width:220px;min-height:52px;border:2px solid var(--ink);border-radius:12px;background:var(--panel);color:var(--ink);padding:12px 14px;font:inherit;caret-color:var(--accent)}
+.signup-input button{border:0;cursor:pointer;font:inherit;min-height:52px}
+.signup-input button:disabled{opacity:.6;cursor:wait}
+.release-signup fieldset{border:0;padding:0;margin:20px 0;display:flex;gap:8px 20px;flex-wrap:wrap}
+.release-signup legend{font-weight:700;margin-bottom:6px}
+.release-signup fieldset label{display:flex;align-items:center;gap:8px;min-height:48px}
+.release-signup input[type=checkbox]{width:20px;height:20px;accent-color:var(--sea-deep);flex-shrink:0}
+.signup-consent{display:flex;align-items:flex-start;gap:10px;line-height:1.5;min-height:48px;max-width:60ch}
+.signup-privacy{font-size:.85rem;margin:12px 0 0}
+.release-signup [role=status]{margin:14px 0 0;line-height:1.5;color:var(--ink)}
+.signup-trap{position:absolute;left:-9999px}
+:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
+::selection{color:var(--ink);background:var(--sun)}
+@media(max-width:480px){.signup-input input,.signup-input button{width:100%;flex-basis:100%}}

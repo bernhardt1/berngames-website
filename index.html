@@ -18,6 +18,8 @@
             </a>
             <nav class="nav">
                 <a href="#browser-games">Browser games</a>
+                <a href="press/boom-brigade/">Press kit</a>
+                <a href="#new-games">New game updates</a>
                 <a href="privacy.html">Privacy Policy</a>
                 <a href="support.html">Support</a>
             </nav>
@@ -26,6 +28,7 @@
         <section id="browser-games" class="browser-games container" aria-labelledby="boom-title">
             <div class="browser-game-copy">
                 <h2 id="boom-title">Boom Brigade</h2>
+                <p class="game-community" data-game-stats>Checking the brigade…</p>
                 <p class="browser-game-hook">One clever move. One glorious chain reaction.</p>
                 <p>Move the barrels, light the fuse, and clear the whole camp. Solve 16 handcrafted boards with blocking rocks, armored orcs, double-damage barrels, and rolling powder kegs.</p>
                 <div class="chips" aria-label="Game details">
@@ -37,7 +40,7 @@
                 <p class="browser-game-controls">Tap to ignite · hold to preview · drag to move.<br>No download or account needed. Progress saves in this browser.</p>
                 <details class="game-credits">
                     <summary>Credits and AI disclosure</summary>
-                    <p>Designed and playtested by Bern Games with AI-assisted development. The game includes AI-generated character and prop artwork and an original AI-generated pirate song. Asset notices ship with the game.</p>
+                    <p>Designed and playtested by Bern Games with AI-assisted development. The game includes AI-generated character and prop artwork and Quiet Powder, an original AI-generated instrumental soundtrack. Asset notices ship with the game.</p>
                 </details>
             </div>
             <a class="browser-game-image" href="games/boom-brigade/" aria-label="Play Boom Brigade">
@@ -104,10 +107,24 @@
             </div>
         </section>
 
+        <section id="new-games" class="release-signup container" aria-labelledby="signup-title">
+            <h2 id="signup-title">Your next little obsession.</h2>
+            <p>Get an email when a new BernGames game is ready to play.</p>
+            <form data-release-signup>
+                <label class="email-label" for="release-email">Email address</label>
+                <div class="signup-input"><input id="release-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="254"><button class="pill-button" type="submit">Keep me posted</button></div>
+                <fieldset><legend>What do you like playing?</legend><label><input type="checkbox" name="topics" value="puzzle" checked> Puzzles</label><label><input type="checkbox" name="topics" value="idle"> Idle games</label><label><input type="checkbox" name="topics" value="dark-fantasy"> Dark fantasy</label></fieldset>
+                <label class="signup-consent"><input type="checkbox" name="consent" value="yes" required> Email me BernGames releases in these categories. I can unsubscribe anytime.</label>
+                <label class="signup-trap" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+                <p role="status" aria-live="polite"></p>
+                <p class="signup-privacy">Stored privately by BernGames on Cloudflare. <a class="inline-link" href="privacy.html">Privacy policy</a>.</p>
+            </form>
+        </section>
         <footer class="site-footer container">
             <div class="footer-meta">(c) 2026 <span class="brand-text">Bern <span class="logo-accent">Games</span></span>. All rights reserved.</div>
         </footer>
     </div>
+<script src="/community.js" defer></script>
 </body>
 
 </html>
