@@ -1,0 +1,39 @@
+character.bright-fantasy-idle.v1.enemy-vanguard
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+character.bright-fantasy-idle.v1.enemy-ironclad
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+icon.bright-fantasy-idle.v1.hit
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+font.nunito
+SIL Open Font License 1.1
+https://github.com/google/fonts/blob/main/ofl/nunito/METADATA.pb
+Preserve copyright and OFL notice with the unmodified font.
+
+prop.bright-fantasy-idle.v1.powder-barrel
+Original artwork and audio for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone asset-pack licence.
+
+audio.boom-brigade.v1.pop
+Original artwork and audio for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone asset-pack licence.
+
+audio.boom-brigade.v1.victory
+Original artwork and audio for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone asset-pack licence.
+
+audio.boom-brigade.v2.yo-ho
+Generated content under Google Gemini API terms
+
+Generated Content section: Google does not claim ownership. Original lyrics and prompt; no named-artist imitation. Incorporated game use under provider terms; no exclusive rights claim.

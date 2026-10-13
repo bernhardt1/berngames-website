@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-vanguard",
+      "name": "enemy-vanguard animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-vanguard.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-vanguard.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "0ae49d8271618e0af1570fcfa594c4c9379cf31c14c4e175aa41159383ccaa72",
+      "bytes": 1085511,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "goblin",
+      "faction": "enemies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.28,
+        "duration": 0.62
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-ironclad",
+      "name": "enemy-ironclad animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-ironclad.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-ironclad.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "e8c53d290c054c885e309a0e6c34cc4c0cbf92e788759bb8991181ec15a6dd58",
+      "bytes": 1282831,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "orc",
+      "faction": "enemies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.36,
+        "duration": 0.78
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.hit",
+      "name": "hit icon",
+      "type": "icon",
+      "path": "UI/BrightFantasyIdle/v1/hit.png",
+      "url": "/library/UI/BrightFantasyIdle/v1/hit.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "UI/BrightFantasyIdle/v1/Sources/icons.png",
+          "UI/BrightFantasyIdle/v1/Prompts/icons.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "UI/BrightFantasyIdle/v1/Prompts/icons.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "55ea1edf4d5639760e913051c233afb3f8cad56f92295936c54bca92585b1d3b",
+      "bytes": 43729,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "icon"
+      ],
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "id": "font.nunito",
+      "name": "Nunito variable font",
+      "type": "font",
+      "path": "Fonts/Nunito/Nunito.ttf",
+      "url": "/library/Fonts/Nunito/Nunito.ttf",
+      "status": "verified-licensed",
+      "productionReady": true,
+      "source": {
+        "kind": "third-party",
+        "provider": "The Nunito Project Authors; Google Fonts",
+        "url": "https://github.com/google/fonts/blob/main/ofl/nunito/METADATA.pb",
+        "downloadUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/Nunito%5Bwght%5D.ttf",
+        "evidence": [
+          "Fonts/Nunito/OFL.txt"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "license": {
+        "id": "OFL-1.1",
+        "name": "SIL Open Font License 1.1",
+        "file": "Fonts/Nunito/OFL.txt",
+        "url": "https://openfontlicense.org/"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "ofl-with-notice",
+        "standalone": true,
+        "incorporatedGame": true,
+        "notes": "Preserve copyright and OFL notice with the unmodified font."
+      },
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+      "bytes": 276932,
+      "tags": [
+        "font",
+        "ui",
+        "rounded",
+        "heavy"
+      ]
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork and audio for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone asset-pack licence."
+      },
+      "id": "prop.bright-fantasy-idle.v1.powder-barrel",
+      "name": "Boom Brigade powder barrel",
+      "type": "texture",
+      "path": "Props/BrightFantasyIdle/v1/powder-barrel.png",
+      "url": "/library/Props/BrightFantasyIdle/v1/powder-barrel.png",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "Props/BrightFantasyIdle/v1/Sources/powder-barrel-raw.png",
+          "Props/BrightFantasyIdle/v1/Prompts/powder-barrel.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Props/BrightFantasyIdle/v1/Prompts/powder-barrel.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "powder-barrel",
+        "prototype"
+      ],
+      "sha256": "9be3ff3622aa1d6f15f9eb67f97914e04f46b9d9d4d51450b6c48d3203b42c97",
+      "bytes": 52981
+    },
+    {
+      "status": "original-authored",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork and audio for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone asset-pack licence."
+      },
+      "id": "audio.boom-brigade.v1.pop",
+      "name": "Boom Brigade pop",
+      "type": "audio",
+      "path": "Audio/BoomBrigade/v1/pop.wav",
+      "url": "/library/Audio/BoomBrigade/v1/pop.wav",
+      "source": {
+        "kind": "original",
+        "provider": "Deterministic original sound synthesis",
+        "evidence": [
+          "Audio/BoomBrigade/v1/recipe.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "tags": [
+        "original",
+        "boom-brigade",
+        "sfx",
+        "prototype"
+      ],
+      "sha256": "a3411cc0690909c43a8646b6c2b0178b101d82d0c442d6bb5dc2ee53ac28a2fe",
+      "bytes": 13274
+    },
+    {
+      "status": "original-authored",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork and audio for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone asset-pack licence."
+      },
+      "id": "audio.boom-brigade.v1.victory",
+      "name": "Boom Brigade victory",
+      "type": "audio",
+      "path": "Audio/BoomBrigade/v1/victory.wav",
+      "url": "/library/Audio/BoomBrigade/v1/victory.wav",
+      "source": {
+        "kind": "original",
+        "provider": "Deterministic original sound synthesis",
+        "evidence": [
+          "Audio/BoomBrigade/v1/recipe.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "tags": [
+        "original",
+        "boom-brigade",
+        "sfx",
+        "prototype"
+      ],
+      "sha256": "e74eee41c7d0348d231e4882b1c89ec4c4b597ae75bfb3c873e16867eda134c8",
+      "bytes": 41938
+    },
+    {
+      "id": "audio.boom-brigade.v2.yo-ho",
+      "name": "Yo Ho, Boom Brigade",
+      "type": "audio",
+      "path": "Audio/BoomBrigade/v2/yo-ho-boom-brigade.mp3",
+      "url": "/library/Audio/BoomBrigade/v2/yo-ho-boom-brigade.mp3",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Google-Gemini-Generated-Content",
+        "name": "Generated content under Google Gemini API terms",
+        "url": "https://ai.google.dev/gemini-api/terms"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Generated Content section: Google does not claim ownership. Original lyrics and prompt; no named-artist imitation. Incorporated game use under provider terms; no exclusive rights claim."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "Google Lyria 3.5 via treg",
+        "evidence": [
+          "Audio/BoomBrigade/v2/Sources/yo-ho-original.mp3",
+          "Audio/BoomBrigade/v2/Sources/prompt.txt",
+          "Audio/BoomBrigade/v2/Sources/generated-lyrics.txt",
+          "Audio/BoomBrigade/v2/Sources/normalization.log",
+          "Audio/BoomBrigade/v2/Sources/generation.json"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Audio/BoomBrigade/v2/Sources/prompt.txt",
+        "callId": "03c953d19f4d4acc8e648303e31aaff7",
+        "costUsd": 0.08
+      },
+      "tags": [
+        "boom-brigade",
+        "pirate",
+        "sea-shanty",
+        "vocals",
+        "prototype"
+      ],
+      "sha256": "afb3d17397b1bfac9f79de29e9f7acf4d27a5a69b6c022e551e662082cb1941a",
+      "bytes": 1290284
+    }
+  ]
+}

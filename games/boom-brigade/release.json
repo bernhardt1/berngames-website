@@ -1,0 +1,10 @@
+{
+  "game": "boom-brigade",
+  "title": "Boom Brigade",
+  "version": "0.1.0",
+  "builtOn": "2026-10-13",
+  "boards": 16,
+  "sha256": "3b4b930343d0ff47078d74e086bc86db13143902965f748aa8a9b89582119eeb",
+  "files": 14,
+  "uncompressedBytes": 5341853
+}

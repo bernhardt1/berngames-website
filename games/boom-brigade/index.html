@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#302746"><title>Boom Brigade</title>  <script type="module" crossorigin src="./assets/index-BB4c8so_.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-vewqSp1s.css">
+</head>
+<body><main id="app">
+  <header><div class="topline"><button id="levels" class="round" aria-label="Choose a board">☷</button><h1>BOOM BRIGADE</h1><button id="sound" class="round" aria-label="Mute sound" aria-pressed="false">♫</button></div>
+  <div class="statusline"><span id="board-label" class="pill">BOARD 1</span><span id="foes" class="pill">3 rivals</span><span id="moves" class="pill gold">1 move</span></div><h2 id="board-title">First Spark</h2><p id="hint" aria-live="polite">Tap to boom. Hold to preview. Rocks block blasts.</p></header>
+  <section id="stage" aria-label="Battlefield"><div id="canvas"></div><div id="grid" role="group" aria-label="Puzzle board"></div><div id="loading">Gathering the brigade…</div><div id="combo" aria-live="off"></div></section>
+  <footer><div class="controls"><button id="undo" class="secondary" disabled>↶ Undo</button><button id="retry" class="secondary">↻ Retry</button></div><p id="instruction">Tap to boom · hold to preview · drag to move</p></footer>
+  <dialog id="result"><div class="result-card"><div id="result-symbol" class="result-symbol">✦</div><p id="result-eyebrow" class="eyebrow">CAMP CLEARED</p><h2 id="result-title">Beautiful BOOM!</h2><p id="result-copy"></p><button id="next" class="primary">Next board →</button><button id="replay" class="quiet">Play this board again</button></div></dialog>
+  <dialog id="level-picker"><div class="picker-card"><div class="picker-heading"><h2>Your brigade</h2><button id="close-levels" class="round" aria-label="Close board selection">×</button></div><p id="campaign-progress">16 boards. Four tricks. One big BOOM.</p><div id="level-list"></div></div></dialog>
+</main></body></html>
