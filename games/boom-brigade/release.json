@@ -1,10 +1,11 @@
 {
   "game": "boom-brigade",
   "title": "Boom Brigade",
-  "version": "0.1.1",
-  "builtOn": "2026-10-13",
-  "boards": 16,
-  "sha256": "51b303b46c4f84ab5d2c2aa7185fa08db146062f2e05260ad7148289d8755b1a",
-  "files": 16,
-  "uncompressedBytes": 5694509
+  "version": "0.1.2",
+  "builtOn": "2026-10-14",
+  "archiveSha256": "07cd928380307d66a889c642b08317a01edbe459738459ee69bc42089c57e1d3",
+  "music": "Goblin Caper \u2014 darker",
+  "musicAsset": "audio.boom-brigade.v4.goblin-caper-loop",
+  "musicDurationSeconds": 128.57142857142858,
+  "boards": 16
 }

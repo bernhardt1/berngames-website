@@ -33,7 +33,7 @@ Original artwork and audio for this workspace
 
 Internal workspace reuse and incorporation into our games; no standalone asset-pack licence.
 
-audio.boom-brigade.v3.puzzle-loop
+audio.boom-brigade.v4.goblin-caper-loop
 Generated content under Google Gemini API terms
 
 Original generated instrumental, no named-artist imitation. Google does not claim ownership of Generated Content under the Gemini API terms; no exclusive-rights claim. Retain source provenance; reuse incorporated in games.

@@ -366,11 +366,11 @@
       "bytes": 41938
     },
     {
-      "id": "audio.boom-brigade.v3.puzzle-loop",
-      "name": "Quiet Powder — instrumental puzzle loop",
+      "id": "audio.boom-brigade.v4.goblin-caper-loop",
+      "name": "Goblin Caper — darker extended loop",
       "type": "audio",
-      "path": "Audio/BoomBrigade/v3/puzzle-loop.mp3",
-      "url": "/library/Audio/BoomBrigade/v3/puzzle-loop.mp3",
+      "path": "Audio/BoomBrigade/v4/goblin-caper-loop.mp3",
+      "url": "/library/Audio/BoomBrigade/v4/goblin-caper-loop.mp3",
       "status": "original-generated",
       "productionReady": false,
       "styleId": "bright-fantasy-idle.v1",
@@ -388,33 +388,36 @@
       },
       "source": {
         "kind": "generated",
-        "provider": "Google Lyria 3.5 via treg",
+        "provider": "Google Lyria 3 Clip via treg, edited from user-selected take",
         "evidence": [
-          "Audio/BoomBrigade/v3/Sources/original.mp3",
-          "Audio/BoomBrigade/v3/Sources/prompt.txt",
-          "Audio/BoomBrigade/v3/Sources/request.json",
-          "Audio/BoomBrigade/v3/Sources/structure.txt",
-          "Audio/BoomBrigade/v3/Sources/normalization.log",
-          "Audio/BoomBrigade/v3/Sources/prepare-music.py",
-          "Audio/BoomBrigade/v3/Sources/generation.json"
+          "Audio/BoomBrigade/v4/Sources/loop.json",
+          "Audio/BoomBrigade/v4/Sources/request.json",
+          "Audio/BoomBrigade/v4/Sources/normalization.log",
+          "Audio/BoomBrigade/v4/Sources/source-generation.json",
+          "Audio/BoomBrigade/v4/Sources/prompt.txt",
+          "Audio/BoomBrigade/v4/Sources/prepare-caper.py",
+          "Audio/BoomBrigade/v4/Sources/original.mp3",
+          "Audio/BoomBrigade/v4/Sources/structure.txt"
         ],
         "verifiedOn": "2026-10-13"
       },
       "generation": {
-        "promptPath": "Audio/BoomBrigade/v3/Sources/prompt.txt",
-        "callId": "ec94b826be604f329caf86c616e8d588",
-        "costUsd": 0.08
+        "promptPath": "Audio/BoomBrigade/v4/Sources/prompt.txt",
+        "callId": "3dfd966326d14e949e5a6811c3d150a5",
+        "costUsd": 0.04
       },
+      "basedOn": "audio.boom-brigade.study.goblin-caper-dark",
       "tags": [
         "boom-brigade",
         "instrumental",
         "puzzle",
-        "calm",
+        "dark-fantasy",
+        "groove",
         "loop",
-        "prototype"
+        "selected-by-user"
       ],
-      "sha256": "f678f2134137f936d90e49e66320eab79db8f3762f72a24b43e3020cfb0852e0",
-      "bytes": 1360083
+      "sha256": "fb453b2474dfa4f97818c1e7fea5bb4f371183e30eb5fce37a99f6312cab1d42",
+      "bytes": 3087090
     },
     {
       "status": "original-generated",
