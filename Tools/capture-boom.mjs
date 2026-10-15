@@ -20,5 +20,5 @@ try{
  await fs.copyFile(new URL('rolling-finale.png',out),new URL('../assets/boom-brigade-gameplay.png',import.meta.url));
  await context.close();
 }finally{await browser.close();}
-await fs.writeFile(new URL('capture.json',out),JSON.stringify({source:'Actual Boom Brigade 0.1.1 production browser renderer',capturedAt:new Date().toISOString(),method:'Chrome 375×812; no generated imagery; qa query excludes capture visits from community counts',captures},null,2)+'\n');
+await fs.writeFile(new URL('capture.json',out),JSON.stringify({source:'Actual Boom Brigade 0.1.2 production browser renderer',capturedAt:new Date().toISOString(),method:'Chrome 375×812; no generated imagery; qa query excludes capture visits from community counts',captures},null,2)+'\n');
 console.log(JSON.stringify(captures));
