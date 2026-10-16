@@ -1,0 +1,83 @@
+{
+  "styleId": "bright-fantasy-idle.v1",
+  "units": [
+    {
+      "key": "ally-vanguard",
+      "frameSize": 192,
+      "columns": 8,
+      "frames": 65,
+      "root": [
+        96,
+        138
+      ],
+      "ground": 177,
+      "contact": 0.28,
+      "duration": 0.62
+    },
+    {
+      "key": "ally-ranger",
+      "frameSize": 192,
+      "columns": 8,
+      "frames": 65,
+      "root": [
+        96,
+        138
+      ],
+      "ground": 177,
+      "contact": 0.28,
+      "duration": 0.62
+    },
+    {
+      "key": "ally-ironclad",
+      "frameSize": 192,
+      "columns": 8,
+      "frames": 65,
+      "root": [
+        96,
+        138
+      ],
+      "ground": 177,
+      "contact": 0.36,
+      "duration": 0.78
+    },
+    {
+      "key": "enemy-vanguard",
+      "frameSize": 192,
+      "columns": 8,
+      "frames": 65,
+      "root": [
+        96,
+        138
+      ],
+      "ground": 177,
+      "contact": 0.28,
+      "duration": 0.62
+    },
+    {
+      "key": "enemy-ranger",
+      "frameSize": 192,
+      "columns": 8,
+      "frames": 65,
+      "root": [
+        96,
+        138
+      ],
+      "ground": 177,
+      "contact": 0.28,
+      "duration": 0.62
+    },
+    {
+      "key": "enemy-ironclad",
+      "frameSize": 192,
+      "columns": 8,
+      "frames": 65,
+      "root": [
+        96,
+        138
+      ],
+      "ground": 177,
+      "contact": 0.36,
+      "duration": 0.78
+    }
+  ]
+}

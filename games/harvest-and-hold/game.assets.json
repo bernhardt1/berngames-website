@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "game": "Idle Forever · Harvest & Hold campaign",
+  "styleId": "bright-fantasy-idle.v1",
+  "assets": [
+    "character.bright-fantasy-idle.v1.ally-vanguard",
+    "portrait.bright-fantasy-idle.v1.ally-vanguard",
+    "character.bright-fantasy-idle.v1.ally-ranger",
+    "portrait.bright-fantasy-idle.v1.ally-ranger",
+    "character.bright-fantasy-idle.v1.ally-ironclad",
+    "portrait.bright-fantasy-idle.v1.ally-ironclad",
+    "character.bright-fantasy-idle.v1.enemy-vanguard",
+    "character.bright-fantasy-idle.v1.enemy-ranger",
+    "character.bright-fantasy-idle.v1.enemy-ironclad",
+    "environment.bright-fantasy-idle.v1.meadow",
+    "environment.bright-fantasy-idle.v1.friendly-gate",
+    "environment.bright-fantasy-idle.v1.enemy-gate",
+    "icon.bright-fantasy-idle.v1.coin",
+    "icon.bright-fantasy-idle.v1.food",
+    "icon.bright-fantasy-idle.v1.lock",
+    "icon.bright-fantasy-idle.v1.gear",
+    "icon.bright-fantasy-idle.v1.upgrade",
+    "icon.bright-fantasy-idle.v1.play",
+    "icon.bright-fantasy-idle.v1.hit",
+    "icon.bright-fantasy-idle.v1.arrow",
+    "character.bright-fantasy-idle.v1.worker",
+    "character.bright-fantasy-idle.v1.worker-loaded",
+    "portrait.bright-fantasy-idle.v1.worker",
+    "environment.bright-fantasy-idle.v1.farm-field",
+    "font.nunito",
+    "environment.bright-fantasy-idle.v1.vertical-meadow-v2",
+    "icon.bright-fantasy-idle.v1.sword"
+  ],
+  "files": [
+    {
+      "id": "character.bright-fantasy-idle.v1.ally-vanguard",
+      "path": "public/assets/bright-fantasy/characters/ally-vanguard.png",
+      "sha256": "e9c315188a26300a3e68c055b3aa05b659ec49bdef55e4b3a1e617456cb70322"
+    },
+    {
+      "id": "portrait.bright-fantasy-idle.v1.ally-vanguard",
+      "path": "public/assets/bright-fantasy/characters/ally-vanguard-portrait.png",
+      "sha256": "a9d45abe2d4068c755ed69b030197e3f54e3448cd656dd4ec8fa3beadbb1b435"
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.ally-ranger",
+      "path": "public/assets/bright-fantasy/characters/ally-ranger.png",
+      "sha256": "33b0afb9d055425e8e13faf10eb5ea5f2d381819d23cc76bbf49f6ef7b805404"
+    },
+    {
+      "id": "portrait.bright-fantasy-idle.v1.ally-ranger",
+      "path": "public/assets/bright-fantasy/characters/ally-ranger-portrait.png",
+      "sha256": "efff1e3c56fd15f28897fb076c866314c4bc4ff065237bb87e0a63ac5b08cf03"
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.ally-ironclad",
+      "path": "public/assets/bright-fantasy/characters/ally-ironclad.png",
+      "sha256": "633d3cfce601dd98f5dd44720aa408939be7934e9b3b14d281ec7323fe834f46"
+    },
+    {
+      "id": "portrait.bright-fantasy-idle.v1.ally-ironclad",
+      "path": "public/assets/bright-fantasy/characters/ally-ironclad-portrait.png",
+      "sha256": "5cdcfce00c16ae90ecb62e0a640ac2cbd818517856d9d71051a468fa299973db"
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-vanguard",
+      "path": "public/assets/bright-fantasy/characters/enemy-vanguard.png",
+      "sha256": "0ae49d8271618e0af1570fcfa594c4c9379cf31c14c4e175aa41159383ccaa72"
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-ranger",
+      "path": "public/assets/bright-fantasy/characters/enemy-ranger.png",
+      "sha256": "05a9efa9ff9e6533914cbb5af8696ce79b7e04e3e1fc1d1c4eb75127bef8ef32"
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-ironclad",
+      "path": "public/assets/bright-fantasy/characters/enemy-ironclad.png",
+      "sha256": "e8c53d290c054c885e309a0e6c34cc4c0cbf92e788759bb8991181ec15a6dd58"
+    },
+    {
+      "id": "environment.bright-fantasy-idle.v1.meadow",
+      "path": "public/assets/bright-fantasy/environment/meadow.webp",
+      "sha256": "d0dd68f0cc1ff6138abc429aa9dbb981708ed5a4d6b417c3c6c33a716e6ac915"
+    },
+    {
+      "id": "environment.bright-fantasy-idle.v1.friendly-gate",
+      "path": "public/assets/bright-fantasy/environment/friendly-gate.png",
+      "sha256": "1293ce4e99c92cd24f9a0ce96bcb1f44937bc637bb92540bb005751b12f05e60"
+    },
+    {
+      "id": "environment.bright-fantasy-idle.v1.enemy-gate",
+      "path": "public/assets/bright-fantasy/environment/enemy-gate.png",
+      "sha256": "a679acad82eb0d89dfcd41efe8be2b158942e2ace2f0fdd67bcc47655b220326"
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.coin",
+      "path": "public/assets/bright-fantasy/ui/coin.png",
+      "sha256": "aec640306519d9c9845e8c794a6d9bdf73d2b583a71dbe871eb12b54d3dccb95"
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.food",
+      "path": "public/assets/bright-fantasy/ui/food.png",
+      "sha256": "366518847f02a1f5610488b9fafaaf6b302a0b336e26ff720cb6b4552dfa3337"
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.lock",
+      "path": "public/assets/bright-fantasy/ui/lock.png",
+      "sha256": "809ab4232a10b595d8eb32484e55873c336dfa61c32cd29241bf7b1fd866d556"
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.gear",
+      "path": "public/assets/bright-fantasy/ui/gear.png",
+      "sha256": "fa9aa278f641bc01c8ab35c40c59189929e3b53b7e36e944267c967d9ff9bee9"
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.upgrade",
+      "path": "public/assets/bright-fantasy/ui/upgrade.png",
+      "sha256": "ddc6e7aa94d8087fd65d6866c4b2ef83e23b47a97be95e7af90ef5c0345f08a8"
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.play",
+      "path": "public/assets/bright-fantasy/ui/play.png",
+      "sha256": "b3a1b6cb434caeb02ddb6e470dd0c5eab39c7b87986a087cbbe4094e810faa75"
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.hit",
+      "path": "public/assets/bright-fantasy/ui/hit.png",
+      "sha256": "55ea1edf4d5639760e913051c233afb3f8cad56f92295936c54bca92585b1d3b"
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.arrow",
+      "path": "public/assets/bright-fantasy/ui/arrow.png",
+      "sha256": "4f49db299b6b11b89a49a2192546fb107e0a1f3ed46f57f7d9a8fce89e804fc8"
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.worker",
+      "path": "public/assets/bright-fantasy/rts/worker.png",
+      "sha256": "9c235a7e8add522a779e184f549fa20d3a928e81813090c4d75ed1bb4727f0c3"
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.worker-loaded",
+      "path": "public/assets/bright-fantasy/rts/worker-loaded.png",
+      "sha256": "1b5e18849c3aa0d649eb1b9bf716b2179f31f49c83d92f03ff5455959c36883d"
+    },
+    {
+      "id": "portrait.bright-fantasy-idle.v1.worker",
+      "path": "public/assets/bright-fantasy/rts/worker-portrait.png",
+      "sha256": "fa1f2d35064944df1a94552933bef3dc37cf347cbba6c3dd30a2b291b9c108ce"
+    },
+    {
+      "id": "environment.bright-fantasy-idle.v1.farm-field",
+      "path": "public/assets/bright-fantasy/rts/farm-field.png",
+      "sha256": "c294db44d7c056f7d0bec8a8671e5a46796c55d25e0a639d5bb1aca60d5de3b7"
+    },
+    {
+      "id": "contract.bright-fantasy-idle.rts.v1",
+      "path": "public/assets/bright-fantasy/rts/motion.json",
+      "sha256": "a37e97f1193933b18024ac1fbc910a4e8e1c4a2d736bb58e5853207f38369fd3"
+    },
+    {
+      "id": "font.nunito",
+      "path": "public/assets/bright-fantasy/fonts/Nunito.ttf",
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+    },
+    {
+      "id": "notice.nunito",
+      "path": "public/assets/bright-fantasy/fonts/OFL.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+    },
+    {
+      "id": "contract.bright-fantasy-idle.v1",
+      "path": "public/assets/bright-fantasy/characters/motion.json",
+      "sha256": "b619a2afb7598a1ce63733229e6b093a5144c8d7e3d682fdf56bbc23f3cdd7f6"
+    },
+    {
+      "id": "environment.bright-fantasy-idle.v1.vertical-meadow-v2",
+      "path": "public/assets/bright-fantasy/environment/vertical-meadow-v2.webp",
+      "sha256": "af4a4d8287a44cae6f554282c39aecf9fb08da99893e4d77b0cc545916366046"
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.sword",
+      "path": "public/assets/bright-fantasy/ui/sword.png",
+      "sha256": "0c85a7568257805add0d966deb699080d4d0a104258070ba648aeb8bc6fac377"
+    }
+  ],
+  "font": {
+    "id": "font.nunito",
+    "path": "public/assets/bright-fantasy/fonts/Nunito.ttf",
+    "license": "OFL-1.1",
+    "licenseFile": "public/assets/bright-fantasy/fonts/OFL.txt"
+  }
+}

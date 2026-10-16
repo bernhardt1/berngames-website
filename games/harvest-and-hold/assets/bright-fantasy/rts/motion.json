@@ -1,0 +1,21 @@
+{
+  "styleId": "bright-fantasy-idle.v1",
+  "units": [
+    {
+      "key": "worker",
+      "frameSize": 192,
+      "columns": 8,
+      "frames": 65,
+      "rootX": 96,
+      "ground": 177
+    },
+    {
+      "key": "worker-loaded",
+      "frameSize": 192,
+      "columns": 8,
+      "frames": 65,
+      "rootX": 96,
+      "ground": 177
+    }
+  ]
+}
