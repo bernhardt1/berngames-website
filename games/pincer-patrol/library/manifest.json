@@ -1,0 +1,1079 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "font.nunito",
+      "name": "Nunito variable font",
+      "type": "font",
+      "path": "Fonts/Nunito/Nunito.ttf",
+      "url": "/library/Fonts/Nunito/Nunito.ttf",
+      "status": "verified-licensed",
+      "productionReady": true,
+      "source": {
+        "kind": "third-party",
+        "provider": "The Nunito Project Authors; Google Fonts",
+        "url": "https://github.com/google/fonts/blob/main/ofl/nunito/METADATA.pb",
+        "downloadUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/Nunito%5Bwght%5D.ttf",
+        "evidence": [
+          "Fonts/Nunito/OFL.txt"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "license": {
+        "id": "OFL-1.1",
+        "name": "SIL Open Font License 1.1",
+        "file": "Fonts/Nunito/OFL.txt",
+        "url": "https://openfontlicense.org/"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "ofl-with-notice",
+        "standalone": true,
+        "incorporatedGame": true,
+        "notes": "Preserve copyright and OFL notice with the unmodified font."
+      },
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+      "bytes": 276932,
+      "tags": [
+        "font",
+        "ui",
+        "rounded",
+        "heavy"
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.ally-vanguard",
+      "name": "ally-vanguard animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/ally-vanguard.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/ally-vanguard.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/allies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "e9c315188a26300a3e68c055b3aa05b659ec49bdef55e4b3a1e617456cb70322",
+      "bytes": 1021385,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "human",
+      "faction": "allies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.28,
+        "duration": 0.62
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.ally-ranger",
+      "name": "ally-ranger animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/ally-ranger.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/ally-ranger.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/allies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "33b0afb9d055425e8e13faf10eb5ea5f2d381819d23cc76bbf49f6ef7b805404",
+      "bytes": 943163,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "elf",
+      "faction": "allies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.28,
+        "duration": 0.62
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.ally-ironclad",
+      "name": "ally-ironclad animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/ally-ironclad.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/ally-ironclad.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/allies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "633d3cfce601dd98f5dd44720aa408939be7934e9b3b14d281ec7323fe834f46",
+      "bytes": 1190180,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "dwarf",
+      "faction": "allies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.36,
+        "duration": 0.78
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-vanguard",
+      "name": "enemy-vanguard animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-vanguard.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-vanguard.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "0ae49d8271618e0af1570fcfa594c4c9379cf31c14c4e175aa41159383ccaa72",
+      "bytes": 1085511,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "goblin",
+      "faction": "enemies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.28,
+        "duration": 0.62
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-ranger",
+      "name": "enemy-ranger animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-ranger.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-ranger.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "05a9efa9ff9e6533914cbb5af8696ce79b7e04e3e1fc1d1c4eb75127bef8ef32",
+      "bytes": 964025,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "undead",
+      "faction": "enemies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.28,
+        "duration": 0.62
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-ironclad",
+      "name": "enemy-ironclad animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-ironclad.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-ironclad.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "e8c53d290c054c885e309a0e6c34cc4c0cbf92e788759bb8991181ec15a6dd58",
+      "bytes": 1282831,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "orc",
+      "faction": "enemies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.36,
+        "duration": 0.78
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "portrait.bright-fantasy-idle.v1.ally-vanguard",
+      "name": "ally-vanguard portrait",
+      "type": "character",
+      "path": "Characters/BrightFantasyIdle/v1/ally-vanguard-portrait.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/ally-vanguard-portrait.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/allies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "a9d45abe2d4068c755ed69b030197e3f54e3448cd656dd4ec8fa3beadbb1b435",
+      "bytes": 54332,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "character"
+      ],
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "id": "portrait.bright-fantasy-idle.v1.ally-ranger",
+      "name": "ally-ranger portrait",
+      "type": "character",
+      "path": "Characters/BrightFantasyIdle/v1/ally-ranger-portrait.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/ally-ranger-portrait.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/allies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "efff1e3c56fd15f28897fb076c866314c4bc4ff065237bb87e0a63ac5b08cf03",
+      "bytes": 46405,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "character"
+      ],
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "id": "portrait.bright-fantasy-idle.v1.ally-ironclad",
+      "name": "ally-ironclad portrait",
+      "type": "character",
+      "path": "Characters/BrightFantasyIdle/v1/ally-ironclad-portrait.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/ally-ironclad-portrait.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/allies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "5cdcfce00c16ae90ecb62e0a640ac2cbd818517856d9d71051a468fa299973db",
+      "bytes": 57207,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "character"
+      ],
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "id": "portrait.bright-fantasy-idle.v1.enemy-vanguard",
+      "name": "enemy-vanguard portrait",
+      "type": "character",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-vanguard-portrait.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-vanguard-portrait.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "3d811585f0c525e4cc2b5c667ae893b5dc5f5e104ff3f14e35ae4907781e3599",
+      "bytes": 54673,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "character"
+      ],
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "id": "portrait.bright-fantasy-idle.v1.enemy-ranger",
+      "name": "enemy-ranger portrait",
+      "type": "character",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-ranger-portrait.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-ranger-portrait.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "c87200a10f37d770f687ee504b52fdae14d04c9a3d7a10e3c1541297598709b3",
+      "bytes": 46727,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "character"
+      ],
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "id": "portrait.bright-fantasy-idle.v1.enemy-ironclad",
+      "name": "enemy-ironclad portrait",
+      "type": "character",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-ironclad-portrait.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-ironclad-portrait.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "27ac5b02ce469d850564dfe6672e4309ce310a84dc36a11db87e3f29d9663ceb",
+      "bytes": 56777,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "character"
+      ],
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "id": "environment.bright-fantasy-idle.v1.meadow",
+      "name": "meadow",
+      "type": "texture",
+      "path": "Environment/BrightFantasyIdle/v1/meadow.webp",
+      "url": "/library/Environment/BrightFantasyIdle/v1/meadow.webp",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Environment/BrightFantasyIdle/v1/Sources/background.png",
+          "Environment/BrightFantasyIdle/v1/Prompts/background.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Environment/BrightFantasyIdle/v1/Prompts/background.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "d0dd68f0cc1ff6138abc429aa9dbb981708ed5a4d6b417c3c6c33a716e6ac915",
+      "bytes": 90018,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "texture"
+      ],
+      "image": {
+        "width": 1774,
+        "height": 887,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.hit",
+      "name": "hit icon",
+      "type": "icon",
+      "path": "UI/BrightFantasyIdle/v1/hit.png",
+      "url": "/library/UI/BrightFantasyIdle/v1/hit.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "UI/BrightFantasyIdle/v1/Sources/icons.png",
+          "UI/BrightFantasyIdle/v1/Prompts/icons.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "UI/BrightFantasyIdle/v1/Prompts/icons.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "55ea1edf4d5639760e913051c233afb3f8cad56f92295936c54bca92585b1d3b",
+      "bytes": 43729,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "icon"
+      ],
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.lock",
+      "name": "lock icon",
+      "type": "icon",
+      "path": "UI/BrightFantasyIdle/v1/lock.png",
+      "url": "/library/UI/BrightFantasyIdle/v1/lock.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "UI/BrightFantasyIdle/v1/Sources/icons.png",
+          "UI/BrightFantasyIdle/v1/Prompts/icons.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "UI/BrightFantasyIdle/v1/Prompts/icons.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "809ab4232a10b595d8eb32484e55873c336dfa61c32cd29241bf7b1fd866d556",
+      "bytes": 48145,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "icon"
+      ],
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "status": "original-authored",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork and audio for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone asset-pack licence."
+      },
+      "id": "audio.boom-brigade.v1.pop",
+      "name": "Boom Brigade pop",
+      "type": "audio",
+      "path": "Audio/BoomBrigade/v1/pop.wav",
+      "url": "/library/Audio/BoomBrigade/v1/pop.wav",
+      "source": {
+        "kind": "original",
+        "provider": "Deterministic original sound synthesis",
+        "evidence": [
+          "Audio/BoomBrigade/v1/recipe.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "tags": [
+        "original",
+        "boom-brigade",
+        "sfx",
+        "prototype"
+      ],
+      "sha256": "a3411cc0690909c43a8646b6c2b0178b101d82d0c442d6bb5dc2ee53ac28a2fe",
+      "bytes": 13274
+    },
+    {
+      "status": "original-authored",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork and audio for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone asset-pack licence."
+      },
+      "id": "audio.boom-brigade.v1.victory",
+      "name": "Boom Brigade victory",
+      "type": "audio",
+      "path": "Audio/BoomBrigade/v1/victory.wav",
+      "url": "/library/Audio/BoomBrigade/v1/victory.wav",
+      "source": {
+        "kind": "original",
+        "provider": "Deterministic original sound synthesis",
+        "evidence": [
+          "Audio/BoomBrigade/v1/recipe.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "tags": [
+        "original",
+        "boom-brigade",
+        "sfx",
+        "prototype"
+      ],
+      "sha256": "e74eee41c7d0348d231e4882b1c89ec4c4b597ae75bfb3c873e16867eda134c8",
+      "bytes": 41938
+    },
+    {
+      "id": "audio.pincer-patrol.v1.quiet-footwork-loop",
+      "name": "Quiet Footwork — extended loop",
+      "type": "audio",
+      "path": "Audio/PincerPatrol/v1/quiet-footwork-loop.mp3",
+      "url": "/library/Audio/PincerPatrol/v1/quiet-footwork-loop.mp3",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Google-Gemini-Generated-Content",
+        "name": "Generated content under Google Gemini API terms",
+        "url": "https://ai.google.dev/gemini-api/terms"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Original generated work, no named-artist imitation. No exclusive rights claim. Audition status: candidate; Jason listening pending"
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "Google Lyria 3 Clip via treg, arranged from user-selected take",
+        "evidence": [
+          "Audio/PincerPatrol/v1/Sources/loop.json",
+          "Audio/PincerPatrol/v1/Sources/request.json",
+          "Audio/PincerPatrol/v1/Sources/normalization.log",
+          "Audio/PincerPatrol/v1/Sources/source-generation.json",
+          "Audio/PincerPatrol/v1/Sources/prompt.txt",
+          "Audio/PincerPatrol/v1/Sources/original.mp3",
+          "Audio/PincerPatrol/v1/Sources/structure.txt",
+          "Audio/PincerPatrol/v1/Sources/prepare-footwork.py"
+        ],
+        "verifiedOn": "2026-10-14"
+      },
+      "generation": {
+        "promptPath": "Audio/PincerPatrol/v1/Sources/prompt.txt",
+        "callId": "7ed12733c56e411a9c004f37c8e546da",
+        "costUsd": 0.04
+      },
+      "basedOn": "audio.pincer-patrol.study.quiet-footwork",
+      "tags": [
+        "pincer-patrol",
+        "instrumental",
+        "puzzle",
+        "subtle",
+        "sneaky",
+        "loop",
+        "selected-by-user"
+      ],
+      "sha256": "37568132ee45db0c882385d22439f22bc8ecf9fe394fe41f06e544604464dde2",
+      "bytes": 3073297
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+font.nunito
+SIL Open Font License 1.1
+https://github.com/google/fonts/blob/main/ofl/nunito/METADATA.pb
+Preserve copyright and OFL notice with the unmodified font.
+
+character.bright-fantasy-idle.v1.ally-vanguard
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+character.bright-fantasy-idle.v1.ally-ranger
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+character.bright-fantasy-idle.v1.ally-ironclad
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+character.bright-fantasy-idle.v1.enemy-vanguard
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+character.bright-fantasy-idle.v1.enemy-ranger
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+character.bright-fantasy-idle.v1.enemy-ironclad
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+portrait.bright-fantasy-idle.v1.ally-vanguard
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+portrait.bright-fantasy-idle.v1.ally-ranger
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+portrait.bright-fantasy-idle.v1.ally-ironclad
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+portrait.bright-fantasy-idle.v1.enemy-vanguard
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+portrait.bright-fantasy-idle.v1.enemy-ranger
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+portrait.bright-fantasy-idle.v1.enemy-ironclad
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+environment.bright-fantasy-idle.v1.meadow
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+icon.bright-fantasy-idle.v1.hit
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+icon.bright-fantasy-idle.v1.lock
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+audio.boom-brigade.v1.pop
+Original artwork and audio for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone asset-pack licence.
+
+audio.boom-brigade.v1.victory
+Original artwork and audio for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone asset-pack licence.
+
+audio.pincer-patrol.v1.quiet-footwork-loop
+Generated content under Google Gemini API terms
+
+Original generated work, no named-artist imitation. No exclusive rights claim. Audition status: candidate; Jason listening pending
