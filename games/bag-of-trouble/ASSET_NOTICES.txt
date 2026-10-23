@@ -1,0 +1,84 @@
+font.nunito
+SIL Open Font License 1.1
+https://github.com/google/fonts/blob/main/ofl/nunito/METADATA.pb
+Preserve copyright and OFL notice with the unmodified font.
+
+character.bright-fantasy-idle.v1.ally-vanguard
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+character.bright-fantasy-idle.v1.enemy-vanguard
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+character.bright-fantasy-idle.v1.enemy-ranger
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+character.bright-fantasy-idle.v1.enemy-ironclad
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+icon.bright-fantasy-idle.v1.coin
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.
+
+ui.boom-brigade.v1.corner-foliage
+Original artwork for this workspace
+
+Internal workspace reuse and incorporation into games; no standalone asset-pack licence.
+
+equipment.bright-fantasy-idle.v1.sword
+Original artwork for this workspace
+
+Internal reuse and incorporation into games only; no standalone asset-pack licence.
+
+equipment.bright-fantasy-idle.v1.shield
+Original artwork for this workspace
+
+Internal reuse and incorporation into games only; no standalone asset-pack licence.
+
+equipment.bright-fantasy-idle.v1.emerald
+Original artwork for this workspace
+
+Internal reuse and incorporation into games only; no standalone asset-pack licence.
+
+equipment.bright-fantasy-idle.v1.bow
+Original artwork for this workspace
+
+Internal reuse and incorporation into games only; no standalone asset-pack licence.
+
+equipment.bright-fantasy-idle.v1.hammer
+Original artwork for this workspace
+
+Internal reuse and incorporation into games only; no standalone asset-pack licence.
+
+equipment.bright-fantasy-idle.v1.potion
+Original artwork for this workspace
+
+Internal reuse and incorporation into games only; no standalone asset-pack licence.
+
+equipment.bright-fantasy-idle.v1.wand
+Original artwork for this workspace
+
+Internal reuse and incorporation into games only; no standalone asset-pack licence.
+
+equipment.bright-fantasy-idle.v1.dagger
+Original artwork for this workspace
+
+Internal reuse and incorporation into games only; no standalone asset-pack licence.
+
+equipment.bright-fantasy-idle.v1.bomb
+Original artwork for this workspace
+
+Internal reuse and incorporation into games only; no standalone asset-pack licence.
+
+environment.bright-fantasy-idle.v1.meadow
+Original generated artwork for this workspace
+
+Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence.

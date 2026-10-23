@@ -1,0 +1,954 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "font.nunito",
+      "name": "Nunito variable font",
+      "type": "font",
+      "path": "Fonts/Nunito/Nunito.ttf",
+      "url": "/library/Fonts/Nunito/Nunito.ttf",
+      "status": "verified-licensed",
+      "productionReady": true,
+      "source": {
+        "kind": "third-party",
+        "provider": "The Nunito Project Authors; Google Fonts",
+        "url": "https://github.com/google/fonts/blob/main/ofl/nunito/METADATA.pb",
+        "downloadUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/Nunito%5Bwght%5D.ttf",
+        "evidence": [
+          "Fonts/Nunito/OFL.txt"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "license": {
+        "id": "OFL-1.1",
+        "name": "SIL Open Font License 1.1",
+        "file": "Fonts/Nunito/OFL.txt",
+        "url": "https://openfontlicense.org/"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "ofl-with-notice",
+        "standalone": true,
+        "incorporatedGame": true,
+        "notes": "Preserve copyright and OFL notice with the unmodified font."
+      },
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+      "bytes": 276932,
+      "tags": [
+        "font",
+        "ui",
+        "rounded",
+        "heavy"
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.ally-vanguard",
+      "name": "ally-vanguard animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/ally-vanguard.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/ally-vanguard.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/allies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/allies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "e9c315188a26300a3e68c055b3aa05b659ec49bdef55e4b3a1e617456cb70322",
+      "bytes": 1021385,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "human",
+      "faction": "allies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.28,
+        "duration": 0.62
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-vanguard",
+      "name": "enemy-vanguard animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-vanguard.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-vanguard.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "0ae49d8271618e0af1570fcfa594c4c9379cf31c14c4e175aa41159383ccaa72",
+      "bytes": 1085511,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "goblin",
+      "faction": "enemies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.28,
+        "duration": 0.62
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-ranger",
+      "name": "enemy-ranger animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-ranger.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-ranger.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "05a9efa9ff9e6533914cbb5af8696ce79b7e04e3e1fc1d1c4eb75127bef8ef32",
+      "bytes": 964025,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "undead",
+      "faction": "enemies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.28,
+        "duration": 0.62
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "character.bright-fantasy-idle.v1.enemy-ironclad",
+      "name": "enemy-ironclad animation sheet",
+      "type": "animation",
+      "path": "Characters/BrightFantasyIdle/v1/enemy-ironclad.png",
+      "url": "/library/Characters/BrightFantasyIdle/v1/enemy-ironclad.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Characters/BrightFantasyIdle/v1/Sources/enemies-parts.png",
+          "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Characters/BrightFantasyIdle/v1/Prompts/enemies-parts.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "e8c53d290c054c885e309a0e6c34cc4c0cbf92e788759bb8991181ec15a6dd58",
+      "bytes": 1282831,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "animation"
+      ],
+      "image": {
+        "width": 1536,
+        "height": 1728,
+        "mode": "RGBA"
+      },
+      "race": "orc",
+      "faction": "enemies",
+      "animation": {
+        "frameWidth": 192,
+        "frameHeight": 192,
+        "columns": 8,
+        "frames": 65,
+        "idle": 0,
+        "walk": {
+          "start": 1,
+          "count": 32
+        },
+        "attack": {
+          "start": 33,
+          "count": 32
+        },
+        "anchor": [
+          0.5,
+          0.921875
+        ],
+        "contact": 0.36,
+        "duration": 0.78
+      },
+      "limitations": [
+        "Cutout animation; inspected in the prototype, not artist-certified production motion."
+      ]
+    },
+    {
+      "id": "icon.bright-fantasy-idle.v1.coin",
+      "name": "coin icon",
+      "type": "icon",
+      "path": "UI/BrightFantasyIdle/v1/coin.png",
+      "url": "/library/UI/BrightFantasyIdle/v1/coin.png",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "UI/BrightFantasyIdle/v1/Sources/icons.png",
+          "UI/BrightFantasyIdle/v1/Prompts/icons.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "UI/BrightFantasyIdle/v1/Prompts/icons.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "aec640306519d9c9845e8c794a6d9bdf73d2b583a71dbe871eb12b54d3dccb95",
+      "bytes": 58803,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "icon"
+      ],
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      }
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into games; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "UI/BoomBrigade/v1/Sources/icons-raw.png",
+          "UI/BoomBrigade/v1/Sources/corner-foliage-raw.png",
+          "UI/BoomBrigade/v1/Sources/mockup-reference.png",
+          "UI/BoomBrigade/v1/Prompts/icons.txt",
+          "UI/BoomBrigade/v1/Prompts/corner-foliage.txt",
+          "UI/BoomBrigade/v1/Sources/prepare-ui.mjs",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "UI/BoomBrigade/v1/Sources/generation.json"
+        ],
+        "verifiedOn": "2026-10-13"
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "id": "ui.boom-brigade.v1.corner-foliage",
+      "name": "Boom Brigade corner foliage",
+      "type": "texture",
+      "path": "UI/BoomBrigade/v1/corner-foliage.png",
+      "url": "/library/UI/BoomBrigade/v1/corner-foliage.png",
+      "generation": {
+        "promptPath": "UI/BoomBrigade/v1/Prompts/corner-foliage.txt",
+        "referencePath": "UI/BoomBrigade/v1/Sources/mockup-reference.png"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "boom-brigade",
+        "foliage",
+        "corner",
+        "quiet-scenery",
+        "prototype"
+      ],
+      "sha256": "8af9aee9ba14a123e0ac036feec0574ef714e91b0f29622420286d9a1c29b883",
+      "bytes": 89145
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal reuse and incorporation into games only; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "Equipment/BrightFantasyIdle/v1/Sources/equipment-atlas-raw.png",
+          "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt",
+          "Equipment/BrightFantasyIdle/v1/Sources/generation.json",
+          "Equipment/BrightFantasyIdle/v1/Sources/prepare.py",
+          "Styles/bright-fantasy-idle/v1/reference.png"
+        ],
+        "verifiedOn": "2026-10-18"
+      },
+      "generation": {
+        "promptPath": "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "equipment",
+        "bag-of-trouble",
+        "prototype"
+      ],
+      "id": "equipment.bright-fantasy-idle.v1.sword",
+      "name": "Bright Fantasy equipment sword",
+      "type": "icon",
+      "path": "Equipment/BrightFantasyIdle/v1/Runtime/sword.png",
+      "url": "/library/Equipment/BrightFantasyIdle/v1/Runtime/sword.png",
+      "sha256": "10646a5d7a7d763bf37f6f987d9f3ab996020ff525e1017fa41ae776cf160678",
+      "bytes": 54805,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      },
+      "derivedFrom": "equipment.bright-fantasy-idle.v1.atlas-source"
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal reuse and incorporation into games only; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "Equipment/BrightFantasyIdle/v1/Sources/equipment-atlas-raw.png",
+          "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt",
+          "Equipment/BrightFantasyIdle/v1/Sources/generation.json",
+          "Equipment/BrightFantasyIdle/v1/Sources/prepare.py",
+          "Styles/bright-fantasy-idle/v1/reference.png"
+        ],
+        "verifiedOn": "2026-10-18"
+      },
+      "generation": {
+        "promptPath": "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "equipment",
+        "bag-of-trouble",
+        "prototype"
+      ],
+      "id": "equipment.bright-fantasy-idle.v1.shield",
+      "name": "Bright Fantasy equipment shield",
+      "type": "icon",
+      "path": "Equipment/BrightFantasyIdle/v1/Runtime/shield.png",
+      "url": "/library/Equipment/BrightFantasyIdle/v1/Runtime/shield.png",
+      "sha256": "5a8a8604e5fc4f4f26a7654df18801cf49e4514e62b61bfd568281011a53ba85",
+      "bytes": 93874,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      },
+      "derivedFrom": "equipment.bright-fantasy-idle.v1.atlas-source"
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal reuse and incorporation into games only; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "Equipment/BrightFantasyIdle/v1/Sources/equipment-atlas-raw.png",
+          "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt",
+          "Equipment/BrightFantasyIdle/v1/Sources/generation.json",
+          "Equipment/BrightFantasyIdle/v1/Sources/prepare.py",
+          "Styles/bright-fantasy-idle/v1/reference.png"
+        ],
+        "verifiedOn": "2026-10-18"
+      },
+      "generation": {
+        "promptPath": "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "equipment",
+        "bag-of-trouble",
+        "prototype"
+      ],
+      "id": "equipment.bright-fantasy-idle.v1.emerald",
+      "name": "Bright Fantasy equipment emerald",
+      "type": "icon",
+      "path": "Equipment/BrightFantasyIdle/v1/Runtime/emerald.png",
+      "url": "/library/Equipment/BrightFantasyIdle/v1/Runtime/emerald.png",
+      "sha256": "8abbf1e1deaa44f3df20bd54d0ac3a40b756566b4cf322b78fb5dc0a510f7913",
+      "bytes": 57357,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      },
+      "derivedFrom": "equipment.bright-fantasy-idle.v1.atlas-source"
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal reuse and incorporation into games only; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "Equipment/BrightFantasyIdle/v1/Sources/equipment-atlas-raw.png",
+          "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt",
+          "Equipment/BrightFantasyIdle/v1/Sources/generation.json",
+          "Equipment/BrightFantasyIdle/v1/Sources/prepare.py",
+          "Styles/bright-fantasy-idle/v1/reference.png"
+        ],
+        "verifiedOn": "2026-10-18"
+      },
+      "generation": {
+        "promptPath": "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "equipment",
+        "bag-of-trouble",
+        "prototype"
+      ],
+      "id": "equipment.bright-fantasy-idle.v1.bow",
+      "name": "Bright Fantasy equipment bow",
+      "type": "icon",
+      "path": "Equipment/BrightFantasyIdle/v1/Runtime/bow.png",
+      "url": "/library/Equipment/BrightFantasyIdle/v1/Runtime/bow.png",
+      "sha256": "c4e162ad4dd66874ae4b4f7d141949f96625f27532677a1c9973205745fc9092",
+      "bytes": 52108,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      },
+      "derivedFrom": "equipment.bright-fantasy-idle.v1.atlas-source"
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal reuse and incorporation into games only; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "Equipment/BrightFantasyIdle/v1/Sources/equipment-atlas-raw.png",
+          "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt",
+          "Equipment/BrightFantasyIdle/v1/Sources/generation.json",
+          "Equipment/BrightFantasyIdle/v1/Sources/prepare.py",
+          "Styles/bright-fantasy-idle/v1/reference.png"
+        ],
+        "verifiedOn": "2026-10-18"
+      },
+      "generation": {
+        "promptPath": "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "equipment",
+        "bag-of-trouble",
+        "prototype"
+      ],
+      "id": "equipment.bright-fantasy-idle.v1.hammer",
+      "name": "Bright Fantasy equipment hammer",
+      "type": "icon",
+      "path": "Equipment/BrightFantasyIdle/v1/Runtime/hammer.png",
+      "url": "/library/Equipment/BrightFantasyIdle/v1/Runtime/hammer.png",
+      "sha256": "84dc24e67a20688d806a8dcd2124c4f6ffa94fc8981c5621a42e9c240bd08bca",
+      "bytes": 58258,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      },
+      "derivedFrom": "equipment.bright-fantasy-idle.v1.atlas-source"
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal reuse and incorporation into games only; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "Equipment/BrightFantasyIdle/v1/Sources/equipment-atlas-raw.png",
+          "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt",
+          "Equipment/BrightFantasyIdle/v1/Sources/generation.json",
+          "Equipment/BrightFantasyIdle/v1/Sources/prepare.py",
+          "Styles/bright-fantasy-idle/v1/reference.png"
+        ],
+        "verifiedOn": "2026-10-18"
+      },
+      "generation": {
+        "promptPath": "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "equipment",
+        "bag-of-trouble",
+        "prototype"
+      ],
+      "id": "equipment.bright-fantasy-idle.v1.potion",
+      "name": "Bright Fantasy equipment potion",
+      "type": "icon",
+      "path": "Equipment/BrightFantasyIdle/v1/Runtime/potion.png",
+      "url": "/library/Equipment/BrightFantasyIdle/v1/Runtime/potion.png",
+      "sha256": "dc300ea910a1ea20ecbe85842c9f0cbd4ce06909b053825713db4052380ed62d",
+      "bytes": 63726,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      },
+      "derivedFrom": "equipment.bright-fantasy-idle.v1.atlas-source"
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal reuse and incorporation into games only; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "Equipment/BrightFantasyIdle/v1/Sources/equipment-atlas-raw.png",
+          "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt",
+          "Equipment/BrightFantasyIdle/v1/Sources/generation.json",
+          "Equipment/BrightFantasyIdle/v1/Sources/prepare.py",
+          "Styles/bright-fantasy-idle/v1/reference.png"
+        ],
+        "verifiedOn": "2026-10-18"
+      },
+      "generation": {
+        "promptPath": "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "equipment",
+        "bag-of-trouble",
+        "prototype"
+      ],
+      "id": "equipment.bright-fantasy-idle.v1.wand",
+      "name": "Bright Fantasy equipment wand",
+      "type": "icon",
+      "path": "Equipment/BrightFantasyIdle/v1/Runtime/wand.png",
+      "url": "/library/Equipment/BrightFantasyIdle/v1/Runtime/wand.png",
+      "sha256": "6178e4a55c1ac8c4c35f0333f6ccde0e26935a3c0571d3e8c8d49b5fb1098a04",
+      "bytes": 39068,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      },
+      "derivedFrom": "equipment.bright-fantasy-idle.v1.atlas-source"
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal reuse and incorporation into games only; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "Equipment/BrightFantasyIdle/v1/Sources/equipment-atlas-raw.png",
+          "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt",
+          "Equipment/BrightFantasyIdle/v1/Sources/generation.json",
+          "Equipment/BrightFantasyIdle/v1/Sources/prepare.py",
+          "Styles/bright-fantasy-idle/v1/reference.png"
+        ],
+        "verifiedOn": "2026-10-18"
+      },
+      "generation": {
+        "promptPath": "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "equipment",
+        "bag-of-trouble",
+        "prototype"
+      ],
+      "id": "equipment.bright-fantasy-idle.v1.dagger",
+      "name": "Bright Fantasy equipment dagger",
+      "type": "icon",
+      "path": "Equipment/BrightFantasyIdle/v1/Runtime/dagger.png",
+      "url": "/library/Equipment/BrightFantasyIdle/v1/Runtime/dagger.png",
+      "sha256": "07d2c8228af7b51ee5fad5daef5fee92e957fdfb219c4535b19f4b411c98215d",
+      "bytes": 49298,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      },
+      "derivedFrom": "equipment.bright-fantasy-idle.v1.atlas-source"
+    },
+    {
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original artwork for this workspace"
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal reuse and incorporation into games only; no standalone asset-pack licence."
+      },
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation",
+        "evidence": [
+          "Equipment/BrightFantasyIdle/v1/Sources/equipment-atlas-raw.png",
+          "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt",
+          "Equipment/BrightFantasyIdle/v1/Sources/generation.json",
+          "Equipment/BrightFantasyIdle/v1/Sources/prepare.py",
+          "Styles/bright-fantasy-idle/v1/reference.png"
+        ],
+        "verifiedOn": "2026-10-18"
+      },
+      "generation": {
+        "promptPath": "Equipment/BrightFantasyIdle/v1/Prompts/equipment-atlas.txt"
+      },
+      "tags": [
+        "bright-fantasy-idle",
+        "equipment",
+        "bag-of-trouble",
+        "prototype"
+      ],
+      "id": "equipment.bright-fantasy-idle.v1.bomb",
+      "name": "Bright Fantasy equipment bomb",
+      "type": "icon",
+      "path": "Equipment/BrightFantasyIdle/v1/Runtime/bomb.png",
+      "url": "/library/Equipment/BrightFantasyIdle/v1/Runtime/bomb.png",
+      "sha256": "775379399ca6f392c0e4ef41a570fbfe9f6f0973214422f391fa4458de0b1150",
+      "bytes": 58722,
+      "image": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA"
+      },
+      "derivedFrom": "equipment.bright-fantasy-idle.v1.atlas-source"
+    },
+    {
+      "id": "environment.bright-fantasy-idle.v1.meadow",
+      "name": "meadow",
+      "type": "texture",
+      "path": "Environment/BrightFantasyIdle/v1/meadow.webp",
+      "url": "/library/Environment/BrightFantasyIdle/v1/meadow.webp",
+      "status": "original-generated",
+      "productionReady": false,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image generation; deterministic cutout baking",
+        "evidence": [
+          "Environment/BrightFantasyIdle/v1/Sources/background.png",
+          "Environment/BrightFantasyIdle/v1/Prompts/background.txt",
+          "Styles/bright-fantasy-idle/v1/reference.png",
+          "Characters/BrightFantasyIdle/v1/Workflow/bake.mjs"
+        ],
+        "verifiedOn": "2026-10-12"
+      },
+      "generation": {
+        "promptPath": "Environment/BrightFantasyIdle/v1/Prompts/background.txt",
+        "referencePath": "Styles/bright-fantasy-idle/v1/reference.png"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Internal workspace reuse and incorporation into our games; no standalone public asset-pack licence."
+      },
+      "sha256": "d0dd68f0cc1ff6138abc429aa9dbb981708ed5a4d6b417c3c6c33a716e6ac915",
+      "bytes": 90018,
+      "tags": [
+        "bright-fantasy-idle",
+        "2d",
+        "original",
+        "texture"
+      ],
+      "image": {
+        "width": 1774,
+        "height": 887,
+        "mode": "RGBA"
+      }
+    }
+  ]
+}

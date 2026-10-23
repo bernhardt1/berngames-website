@@ -1,0 +1,10 @@
+{
+  "game": "bag-of-trouble",
+  "title": "Bag of Trouble",
+  "version": "0.3.0",
+  "builtOn": "2026-10-23",
+  "encounters": 8,
+  "equipmentFamilies": 9,
+  "purchases": false,
+  "ads": false
+}
