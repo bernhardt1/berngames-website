@@ -1074,6 +1074,49 @@
       ],
       "sha256": "37568132ee45db0c882385d22439f22bc8ecf9fe394fe41f06e544604464dde2",
       "bytes": 3073297
+    },
+    {
+      "id": "environment.pincer-patrol.v1.stoneguard-pass",
+      "name": "Stoneguard stone pass",
+      "type": "texture",
+      "path": "Environment/PincerPatrol/v1/stone-pass.png",
+      "url": "/library/Environment/PincerPatrol/v1/stone-pass.png",
+      "status": "original-generated",
+      "productionReady": true,
+      "styleId": "bright-fantasy-idle.v1",
+      "source": {
+        "kind": "generated",
+        "provider": "OpenAI built-in image_gen",
+        "evidence": [
+          "Environment/PincerPatrol/Studies/2026-10-22-stoneguard/Sources/generation.json",
+          "Environment/PincerPatrol/Studies/2026-10-22-stoneguard/Sources/prompt.txt",
+          "Environment/PincerPatrol/v1/README.md"
+        ],
+        "verifiedOn": "2026-10-23"
+      },
+      "generation": {
+        "promptPath": "Environment/PincerPatrol/Studies/2026-10-22-stoneguard/Sources/prompt.txt"
+      },
+      "license": {
+        "id": "LicenseRef-Workspace-Original-Generated",
+        "name": "Original generated artwork for this workspace",
+        "notes": "Original designs. No reference-game assets or third-party open licence asserted."
+      },
+      "commercialUse": true,
+      "redistribution": {
+        "mode": "incorporated-game-only",
+        "standalone": false,
+        "incorporatedGame": true,
+        "notes": "Original generated scenery selected by Jason for the public Stoneguard pack on 23 October 2026. Incorporated-game reuse only."
+      },
+      "tags": [
+        "pincer-patrol",
+        "stoneguard",
+        "selected-by-user"
+      ],
+      "sha256": "34792f567074eee7fe9d2d87fbf39f7cfb7d1acda8db37c8d0fc92e0eaa5d279",
+      "bytes": 1517643,
+      "basedOn": "environment.pincer-patrol.study.stoneguard-pass"
     }
   ]
 }

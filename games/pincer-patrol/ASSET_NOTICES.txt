@@ -92,3 +92,8 @@ audio.pincer-patrol.v1.quiet-footwork-loop
 Generated content under Google Gemini API terms
 
 Original generated work, no named-artist imitation. No exclusive rights claim. Audition status: candidate; Jason listening pending
+
+environment.pincer-patrol.v1.stoneguard-pass
+Original generated artwork for this workspace
+
+Original generated scenery selected by Jason for the public Stoneguard pack on 23 October 2026. Incorporated-game reuse only.

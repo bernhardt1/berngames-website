@@ -1,11 +1,21 @@
 {
+  "schemaVersion": 1,
   "game": "pincer-patrol",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "freeBoards": 10,
-  "paidBoards": 8,
-  "archiveSha256": "5528b5236af80848ea57e46f8994e920e9f55e187ed42edd2d785e0cd0f536a0",
-  "pricing": "free-campaign + optional US$1.99 permanent Crosswind Pack plus tax",
-  "billing": "RevenueCat / Stripe Managed Payments",
-  "ads": false,
-  "preparedOn": "2026-10-19"
+  "packs": [
+    {
+      "id": "crosswind",
+      "boards": 10,
+      "usd": 1.99,
+      "existingOwnersGetAdditions": true
+    },
+    {
+      "id": "stoneguard",
+      "boards": 10,
+      "usd": 1.99
+    }
+  ],
+  "soundtrack": "Quiet Footwork",
+  "browserAds": false
 }
